@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    font-size: 16px;
+}
+.nav-item .nav-link:hover{
+    cursor: pointer;
+    background-color: #fb774b;
+}
+.navbar-light .navbar-nav .nav-item .nav-link{
+    font-style: normal;
+    padding: 0 20px;
+    color: black;
+    transition: 0.3 ease;
+}
+.navbar-light .navbar-nav a{
+    color: #1d1d1d;
+    transition: 0.3s ease;
+    padding: 0 10px;
+}
+.navbar-light .navbar-nav a:hover{
+    color: coral;
+    cursor: pointer;
+
+}
+
+#home span{
+    color: coral;
+
+}
+button{
+    font-size: 0.8rem;
+    font-weight: 700;
+    outline: none;
+    border: none;
+    background-color: #2a2a2a;
+    color: aliceblue;
+    padding: 13px 30px;
+    text-transform: uppercase;
+    transition: 0.3 ease;
+}
+button:hover{
+    background-color:rgb(58, 69, 64);
+
+}
+#home{
+    background-image: url(/images/pexels-shvets-production-9775856.jpg); 
+    height: 100vh;
+    width: 100%; 
+    background-size: cover; 
+    background-position: top 60px left 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.product{
+    
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+.product img{
+    height: 300px;
+    transition: 0.3s all;
+
+}
+.product .star{
+    color: coral;
+}
+.product:hover img{
+    opacity: 0.7;
+
+}
+.product .buy-button{
+    background-color: #fb774b;
+    visibility: hidden;
+}
+.product:hover .buy-button{
+    background-color: #fb774b;
+    visibility: visible;
+}
+
+
+
+/* Product description css */
+
+.detail-image{
+    height: 400px;
+}
+
+.small-image-grp{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+.small-image{
+    flex-basis: 24%;        
+}
+.small-image:hover{
+    flex-basis: 24%;
+    cursor: pointer;
+    background-color: lightgray;
+    
+
+}
+
+.pdescription select{
+    display: block;
+    padding: 5px 10px;
+}
+
+.pdescription input{
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+
+
+
